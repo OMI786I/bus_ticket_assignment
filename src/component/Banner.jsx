@@ -12,7 +12,10 @@ const Banner = () => {
           <h1 className="lg:text-7xl md:text-5xl text-4xl font-bold bg-gradient-to-r from-red-400 to-red-100 bg-clip-text text-transparent my-6">
             Book your seat now
           </h1>
-          <button className="btn btn-warning">Book Now</button>
+          <Link to={"/booking"}>
+            {" "}
+            <button className="btn btn-warning">Book Now</button>
+          </Link>
         </div>
         <div>
           <img src="resources/—Pngtree—big tour bus 3d rendering_18143632.png"></img>
